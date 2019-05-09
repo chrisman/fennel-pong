@@ -1,4 +1,4 @@
-# Fennel Test
+# Fennel Pong
 
 Scaffolding a love2d project to use Fennel
 
@@ -20,9 +20,18 @@ This was a learning exercise for me, and the end result is largely the result of
 
 - Get to write lisp for awesome lua frameworks like love2d and TIC-80
 
-- Hot swapping / live reloading (not unique to fennel. You can apparently use [lume/hotswap](https://github.com/rxi/lume#lumehotswapmodname) to do this in pure Lua)
+- Hot swapping / live reloading
 
-- REPL driven development (if you embed fennel in your lua)
+    - ![hotswapping](./img/hotswap.gif)
+    - Load changes to your code with a keypress without restarting your app
+    - not unique to fennel. You can apparently use [lume/hotswap](https://github.com/rxi/lume#lumehotswapmodname) to do this in pure Lua
+
+- REPL driven development
+
+    - ![repl](./img/repl.gif)
+    - embed fennel in your lua and start its REPL, and any global variables are available in your REPL to inspect and tweak while your code is running.
+
+- Full Lua interop: call any and all lua functions, built in or from a library
 
 **Cons**:
 
